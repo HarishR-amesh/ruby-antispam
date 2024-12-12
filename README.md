@@ -1,4 +1,6 @@
 # ruby-cleantalk
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHarishR-amesh%2Fruby-antispam.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHarishR-amesh%2Fruby-antispam?ref=badge_shield)
+
 
 API to have CleanTalk anti-spam on Ruby
 
@@ -55,3 +57,7 @@ result = cleantalk.is_allowed_user(request)    # for registration checking
 # result['allow'] contains our decision: 1 for allowed message, 0 for blocked
 # result['comment'] contains comment for our decision
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHarishR-amesh%2Fruby-antispam.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FHarishR-amesh%2Fruby-antispam?ref=badge_large)
